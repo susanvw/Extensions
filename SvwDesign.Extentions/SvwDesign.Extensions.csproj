@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <Version>5.1.13.8</Version>
+    <Version>5.1.14</Version>
     <Authors>Susan von Wielligh</Authors>
     <Company>SvwDesign</Company>
     <Description>Generic extensions</Description>
@@ -15,6 +15,13 @@
     <Compile Remove="Api\**" />
     <EmbeddedResource Remove="Api\**" />
     <None Remove="Api\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\profile_picture_icon_v1.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>

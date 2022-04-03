@@ -1,10 +1,4 @@
-﻿using FluentValidation.Results;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-
-
-namespace SvwDesign.Extensions.Exceptions
+﻿namespace SvwDesign.Extensions.Exceptions
 {
     public class ValidationException : Exception
     {

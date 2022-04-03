@@ -1,8 +1,5 @@
-﻿using System;
-using System.Linq;
-using System.Reflection;
-using AutoMapper;
-
+﻿
+namespace SvwDesign.Extensions.Mappings;
 public class MappingProfile : Profile
 {
     public MappingProfile()

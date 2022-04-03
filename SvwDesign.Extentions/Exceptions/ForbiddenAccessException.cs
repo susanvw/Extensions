@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace SvwDesign.Extensions.Exceptions
+﻿namespace SvwDesign.Extensions.Exceptions
 {
     public class ForbiddenAccessException : Exception
     {

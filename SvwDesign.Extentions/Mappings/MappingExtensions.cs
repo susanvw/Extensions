@@ -1,11 +1,4 @@
-﻿using AutoMapper;
-using AutoMapper.QueryableExtensions;
-using Microsoft.EntityFrameworkCore;
-using SvwDesign.Extensions.Models;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
+﻿namespace SvwDesign.Extensions.Mappings;
 public static class MappingExtensions
 {
     public static Task<PaginatedList<TDestination>> PaginatedListAsync<TDestination>(this IQueryable<TDestination> queryable, int pageNumber, int pageSize)

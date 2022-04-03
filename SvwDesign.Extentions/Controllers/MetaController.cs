@@ -1,7 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
-
-namespace SvwDesign.Extensions.Controllers;
+﻿namespace SvwDesign.Extensions.Controllers;
 
 public class MetaController : ApiControllerBase
 {

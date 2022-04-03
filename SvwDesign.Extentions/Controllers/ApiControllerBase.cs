@@ -1,8 +1,4 @@
-﻿using MediatR;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.DependencyInjection;
-
-namespace SvwDesign.Extensions.Controllers;
+﻿namespace SvwDesign.Extensions.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

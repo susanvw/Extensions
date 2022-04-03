@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿
+namespace SvwDesign.Extensions.Mappings;
 
 public interface IMapFrom<T>
 {
